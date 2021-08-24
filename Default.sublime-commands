@@ -1,0 +1,6 @@
+[
+    { "caption": "Loggity: Include logs with String", "command": "loggity_filter_including_string"},
+    { "caption": "Loggity: Exclude logs with String", "command": "loggity_filter_excluding_string"},
+    { "caption": "Loggity: Include logs with Regex", "command": "loggity_filter_including_regex"},
+    { "caption": "Loggity: Exclude logs with Regex", "command": "loggity_filter_excluding_regex"},
+]

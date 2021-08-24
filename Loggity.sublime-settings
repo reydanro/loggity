@@ -1,0 +1,4 @@
+{
+	// If true, regular expression matching is case-sensitive
+	"case_sensitive_search": false,
+}

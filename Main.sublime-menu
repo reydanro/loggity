@@ -1,0 +1,52 @@
+[
+    {
+        "id": "edit",
+        "children":
+        [ 
+            {
+                "id": "loggity",
+                "caption": "Loggity",
+                "children":
+                [
+                    { "caption": "Filter including string", "command": "loggity_filter_including_string"},
+                    { "caption": "Filter excluding string", "command": "loggity_filter_excluding_string"},
+                    { "caption": "Filter including regex", "command": "loggity_filter_including_regex"},
+                    { "caption": "Filter excluding regex", "command": "loggity_filter_excluding_regex"},
+                ]
+            },
+        ]
+    },
+
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Loggity",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Loggity/Loggity.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/Loggity.sublime-settings"},
+                                "caption": "Settings – User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
