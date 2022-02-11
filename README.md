@@ -61,9 +61,9 @@ A timestamped log message will:
 
 # Installation
 **Package Control**
-1. Install the package control module in sublime (https://packagecontrol.io/installation)
-2. In package control, then add a repository that points to: https://github.com/reydanro/loggity
-3. Search and install the `Loggity` package from package control.
+1. Install [PackageControl](https://packagecontrol.io/installation)
+2. In package control, add a custom repository that points to: `https://github.com/reydanro/loggity`
+3. Find and install the `Loggity` package from package control.
 
 **Manual (MacOS)**
 1. Clone this repo in `~/Library/Application Support/Sublime Text 3/Packages/Loggity`
